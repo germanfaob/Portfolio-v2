@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-VariableFont.ttf);
+}
+
+@font-face {
+    font-family: 'Monolisa';
+    src: url(../fonts/MonoLisa-Medium.ttf);
+}
+
+:root{
+    /* Font Family */
+    --primary-font: 'Monolisa';
+    --secondary-font: 'Inter', sans-serif;
+
+    /* Colors */
+    --bg-color: #F7F9FB;
+    --black-color: #454545;
+    --hover-color: #000000;
+    --accent-color: #06B6D4;
+    --alert-color: #F25F5F;
+    --title-color: #363535;
+
+    /* Font size */
+    --regular-size: 1rem;
+    --title-size: 1.6rem;
+    --subtitle-size: 1.3rem;
+    --small-size: .7rem;
+    --big-size: 3rem;
+    --extra-size: 5rem;
+
+    /* Font weight */
+    --light-weight: 100;
+    --regular-weight: 400;
+    --medium-weight: 600;
+    --bold-weight: 700;
+}
+
+    /* Reset */
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+*::selection{
+    background: var(--bg-color);
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: var(--secondary-font);
+}
+
+h1,h2,h3{
+    font-size: var(--title-size);
+    font-weight: var(--bold-weight);
+    font-family: var(--secondary-font) ;
+    margin: 0;
+    color: var(--title-color);
+}
+
+p{
+    font-family: var(--primary-font);
+    color: var(--black-color);
+}
+
+button{
+    background: transparent;
+    font-family: var(--secondary-font)
+}
+
+body{
+    font-size: var(--regular-size);
+    font-weight: var(--regular-weight);
+    font-family: var(--primary-font);
+    overflow-x: hidden;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg-color);
+    overflow: hidden;
+  }
