@@ -7,7 +7,7 @@ export const Layout = () => {
       <nav className="nav">
         <div className="logo">
           <Link to="/">
-            <img className="logo__img" src="../images/logo2.png" alt="logo" />
+            <img className="logo__img" src="../images/logo.webp" alt="logo" />
           </Link>
         </div>
         <div className="links">

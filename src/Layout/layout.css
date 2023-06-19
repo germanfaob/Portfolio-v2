@@ -3,6 +3,12 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+}
+
+.content{
+    display: flex;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -36,17 +42,13 @@
 }
 
 .links__item{
-    font-size: clamp(.9rem, 1.6vw, 1.1rem);
+    font-size: clamp(.9rem, 1.5vw, 1rem);
     color: var(--title-color);
 }
 
 .links__item:hover{
     color: var(--hover-color);
     transition: .3s;
-}
-
-.content{
-    padding: 1rem;
 }
 
 /* RESPONSIVE */

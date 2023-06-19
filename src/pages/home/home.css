@@ -1,5 +1,28 @@
 .home{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    background-image: url(../../images/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
+
+.hero{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem 5rem 1rem;
+    gap: .5rem;
+}
+
+.hero__title{
+    font-size: clamp(2.5rem, 9vw, 5rem);
+}
+
+.hero__subtitle{
+    font-size: clamp(.8rem, 2vw, 1rem)
+}
+
