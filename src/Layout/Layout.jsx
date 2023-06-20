@@ -17,10 +17,13 @@ export const Layout = () => {
           <NavLink className="links__item" to="/projects">
             Projects
           </NavLink>
-          <NavLink className="links__item" to="/projects">
+          <NavLink className="links__item" to="/experience">
             Experience
           </NavLink>
-          <NavLink className="links__item" to="/projects">
+          <NavLink className="links__item" to="/about">
+            About
+          </NavLink>
+          <NavLink className="links__item" to="/contact">
             Contact
           </NavLink>
         </div>
