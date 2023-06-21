@@ -31,7 +31,7 @@
 
 .logo__img:hover{
     transition: .3s;
-    opacity: .9;
+    opacity: .7;
 }
 
 .links{
@@ -47,8 +47,8 @@
 }
 
 .links__item:hover{
-    color: var(--hover-color);
     transition: .3s;
+    opacity: .7;
 }
 
 /* RESPONSIVE */
