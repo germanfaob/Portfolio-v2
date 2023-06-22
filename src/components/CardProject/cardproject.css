@@ -3,6 +3,10 @@
   background: var(--bg-color);
 }
 
+.card:hover{
+  background-color: var(--accent-color);
+}
+
 .card__title{
   font-size: clamp(1.1rem, 1.8vw, 1.4rem);
   color: var(--title-color);
@@ -11,7 +15,7 @@
 .card p{
   padding-top: 1rem;
   font-size: clamp(.7rem, 2vw, .9rem);
-  color: var(--black-color);
+  color: var(--hover-color);
 }
 
 .card__expand{
@@ -31,12 +35,12 @@
 .stack-title{
   font-family: var(--secondary-font);
   font-size: clamp(.7rem, 2vw, 1rem);
-  color: var(--title-color);
+  color: var(--hover-color);
 }
 
 .stack{
   font-size: clamp(.7rem, 2vw, .9rem);
-  color: var(--black-color);
+  color: var(--hover-color);
 }
 
 .card__expand-icons{
@@ -48,6 +52,7 @@
 .icon{
   width: 24px;
   height: 24px;
+  filter: var(--filter);
 }
 
 .icon:hover{

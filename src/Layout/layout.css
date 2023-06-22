@@ -53,10 +53,20 @@
 
 /* RESPONSIVE */
 
+@media (max-width: 500px){
+    .nav{
+        flex-direction: column;
+    }
+
+    .links{
+        align-self: center;
+    }
+}
+
 @media (max-width: 768px){
     .nav{
-        padding: .93rem 0 .93rem 0;
-        justify-content: center;
+        padding: .93rem .3rem .93rem .3rem;
+        justify-content: space-around;
     }
 
     .logo__img{

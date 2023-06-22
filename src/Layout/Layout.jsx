@@ -1,5 +1,6 @@
 import { Link, NavLink, Outlet } from "react-router-dom";
 import "./layout.css";
+import { Switch } from "../components/Switch/Switch";
 
 export const Layout = () => {
   return (
@@ -27,6 +28,7 @@ export const Layout = () => {
             Contact
           </NavLink>
         </div>
+        <Switch />
       </nav>
       <div className="content">
         <Outlet />

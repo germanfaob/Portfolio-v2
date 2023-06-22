@@ -6,7 +6,6 @@ import { AnimatePresence } from "framer-motion";
 import { Experience } from "../pages/experience/Experience";
 import { About } from "../pages/about/About";
 import { Contact } from "../pages/contact/Contact";
-import { CardDetail } from "../components/CardDetail/CardDetail";
 
 export const Router = () => {
   const location = useLocation();
@@ -21,7 +20,6 @@ export const Router = () => {
             <Route path="/experience" element={<Experience />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/projects/:id" element={<CardDetail />} />
           </Route>
         </Routes>
       </AnimatePresence>

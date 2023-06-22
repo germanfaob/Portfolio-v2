@@ -20,6 +20,7 @@
     --accent-color: tomato;
     --alert-color: #F25F5F;
     --title-color: #363535;
+    --filter: invert(0%);
 
     /* Font size */
     --regular-size: 1rem;
@@ -35,6 +36,21 @@
     --medium-weight: 600;
     --bold-weight: 700;
 }
+
+/* Dark Theme */
+
+[data-theme='dark']{
+
+    /* Colors */
+    --bg-color: #242434;
+    --black-color: #bababa;
+    --hover-color: #ffffff;
+    --accent-color: #009cb8;
+    --alert-color: #F25F5F;
+    --title-color: #c9caca;
+    --filter: invert(90%);
+}
+
 
     /* Reset */
 *, *::before, *::after{
@@ -83,6 +99,7 @@ body{
     font-weight: var(--regular-weight);
     font-family: var(--primary-font);
     overflow-x: hidden;
+    background-color: var(--bg-color);
 }
 
 #root {
