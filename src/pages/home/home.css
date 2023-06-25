@@ -19,10 +19,9 @@
 }
 
 .hero__title{
-    font-size: clamp(2.5rem, 9vw, 5rem);
+    font-size: clamp(2.2rem, 9vw, 5rem);
 }
 
 .hero__subtitle{
     font-size: clamp(.8rem, 2vw, 1rem)
 }
-

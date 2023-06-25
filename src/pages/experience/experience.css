@@ -15,7 +15,7 @@
 }
 
 .experience__title{
-    font-size: clamp(2.1rem, 5vw, 3.5rem);
+    font-size: clamp(1.9rem, 5vw, 3.5rem);
 }
 
 .experience__body{
@@ -44,7 +44,7 @@
 }
 
 .experience__body-title{
-    font-size: clamp(1.1rem, 1.8vw, 1.4rem);
+    font-size: clamp(1rem, 1.8vw, 1.4rem);
     color: var(--title-color);
 }
 
@@ -64,7 +64,7 @@
 }
 
 .experience__description-title{
-    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    font-size: clamp(1rem, 2vw, 1.4rem);
     font-weight: var(--medium-weight);
     color: var(--title-color);
 }
