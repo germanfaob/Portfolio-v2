@@ -34,7 +34,6 @@
 .carousel{
   display: flex;
   justify-content: center;
-  align-items: center;
   cursor: grab;
   overflow: hidden;
   height: 28rem;
@@ -44,7 +43,6 @@
 
 .inner-carousel{
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 1rem;
   will-change: transform;
@@ -54,12 +52,20 @@
 
 @media only screen and (max-width: 767px){
     .projects{
-        margin: 0 .5rem;
+        margin: 0 0rem;
+    }
+
+    .inner-carousel{
+      gap: .3rem;
     }
 }
 
 @media only screen and (max-width: 959px){
     .projects{
-        margin: 0 .5rem;
+        margin: 0 .2rem;
+    }
+
+    .inner-carousel{
+      gap: .5rem;
     }
 }

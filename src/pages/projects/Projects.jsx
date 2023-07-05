@@ -23,21 +23,21 @@ export const Projects = () => {
     },
     {
       id: 2,
-      projectName: "Movie App",
-      projectDescription:
-        "You can browse the list of current movies and access each one for more information.",
-      stack: "React - API:TMDb",
-      linkGithub: "https://github.com/germanfaob/Movie_App",
-      linkPage: "https://germadev-movie-app.netlify.app/",
-    },
-    {
-      id: 3,
       projectName: "Portfolio",
       projectDescription:
         "Public portfolio for other users to utilize, simply change the data or modify it to your liking.",
       stack: "React",
       linkGithub: "https://github.com/germanfaob/React-Portfolio",
       linkPage: "https://germadev-portfolio.netlify.app/",
+    },
+    {
+      id: 3,
+      projectName: "Kanban UI",
+      projectDescription:
+        "Kanban-style task organizer. Users can interact with labels and drag tasks from one column to another.",
+      stack: "React - SCSS - Library:React beautiful dnd",
+      linkGithub: "https://github.com/germanfaob/Kanban_UI",
+      linkPage: "https://germadev-kanban-ui.netlify.app/",
     },
     {
       id: 4,
@@ -50,12 +50,12 @@ export const Projects = () => {
     },
     {
       id: 5,
-      projectName: "Kanban UI",
+      projectName: "Online Shop",
       projectDescription:
-        "Kanban-style task organizer. Users can interact with labels and drag tasks from one column to another.",
-      stack: "React - SCSS - Library:React beautiful dnd",
-      linkGithub: "https://github.com/germanfaob/Kanban_UI",
-      linkPage: "https://germadev-kanban-ui.netlify.app/",
+        "Online product store with different routes and detailed view of each product",
+      stack: "React - TypeScript - Styled Components",
+      linkGithub: "https://github.com/germanfaob/Online-Shop",
+      linkPage: "https://germadev-online-shop.netlify.app/",
     },
     {
       id: 6,
@@ -74,6 +74,15 @@ export const Projects = () => {
       stack: "React - DB:Json",
       linkGithub: "https://github.com/germanfaob/Shopping_Cart",
       linkPage: "https://germadev-shopping-cart.netlify.app/",
+    },
+    {
+      id: 8,
+      projectName: "Movie App",
+      projectDescription:
+        "You can browse the list of current movies and access each one for more information.",
+      stack: "React - API:TMDb",
+      linkGithub: "https://github.com/germanfaob/Movie_App",
+      linkPage: "https://germadev-movie-app.netlify.app/",
     },
   ];
 
@@ -101,7 +110,7 @@ export const Projects = () => {
           <m.div
             className="inner-carousel"
             drag="x"
-            dragConstraints={{ right: +width, left: -width }}
+            dragConstraints={{ right: width, left: -width }}
           >
             {cardData.map((card) => (
               <m.div key={card.id} className="item">

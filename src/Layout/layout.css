@@ -15,7 +15,7 @@
 .nav{
     display: flex;
     width: 100%;
-    padding: 0 2rem 0 2rem;
+    padding: 0 2rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -56,6 +56,8 @@
 @media (max-width: 500px){
     .nav{
         flex-direction: column;
+        padding: .93rem .1rem;
+        justify-content: flex-start;
     }
 
     .links{
@@ -65,7 +67,7 @@
 
 @media (max-width: 768px){
     .nav{
-        padding: .93rem .3rem .93rem .3rem;
+        padding: .93rem .3rem;
         justify-content: space-around;
     }
 
