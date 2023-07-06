@@ -74,4 +74,7 @@
     .logo__img{
         display: none;
     }
+    .content{
+        flex-direction: column;
+    }
 }

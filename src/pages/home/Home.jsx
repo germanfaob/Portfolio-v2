@@ -20,7 +20,7 @@ export const Home = () => {
           Germán Figueroa
         </m.h1>
         <m.p className="hero__subtitle">
-          Front-End Web application developer
+          Front-End, Web application developer
         </m.p>
       </div>
     </m.section>

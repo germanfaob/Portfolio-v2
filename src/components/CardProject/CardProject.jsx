@@ -8,21 +8,17 @@ export const CardProject = (props) => {
     props;
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleMouseEnter = () => {
-    setIsOpen(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsOpen(false);
+  const handleClick = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
     <m.div
       layout
       transition={{ layout: { duration: 1, type: "spring" } }}
+      exit={{ duration: 1 }}
       className={`card ${isOpen ? "expanded" : ""}`}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+      onClick={handleClick}
     >
       <m.h2 layout="position" className="card__title">
         {projectName}

@@ -1,6 +1,6 @@
 .card{
-  padding: 3.5rem 4.5rem;
-  background: var(--bg-color);
+  padding: 2rem 3rem;
+  background: var(--black-color);
 }
 
 .card:hover{
@@ -8,13 +8,13 @@
 }
 
 .card__title{
-  font-size: clamp(1.1rem, 1.8vw, 1.4rem);
-  color: var(--title-color);
+  font-size: clamp(.9rem, 1.8vw, 1.2rem);
+  color: var(--bg-color);
 }
 
 .card p{
   padding-top: 1rem;
-  font-size: clamp(.7rem, 2vw, .9rem);
+  font-size: clamp(.7rem, 1.5vw, .9rem);
   color: var(--hover-color);
 }
 
@@ -23,7 +23,8 @@
   flex-direction: column;
   justify-content: space-around;
   width: 13rem;
-  height: 20rem;
+  height: 17rem;
+  gap: .5rem;
 }
 
 .card__expand-stack{
@@ -64,12 +65,26 @@
 
 @media only screen and (max-width: 767px){
   .card{
-    padding: 2rem .3rem;
+    padding: .6rem 3rem;
   }
+
+  .card__expand{
+    width: 5rem;
+    height: 10rem;
+  }
+
+  
 }
 
 @media only screen and (max-width: 959px){
   .card{
-    padding: 2rem .5rem;
+    padding: 2rem 2rem;
   }
+
+  .card__expand{
+    width: 10rem;
+    height: 16rem;
+  }
+
+  
 }
